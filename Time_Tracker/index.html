@@ -65,6 +65,11 @@
   <article data-timings="">
     <h4>1. Enter start time into input box. 15 minutes equals 0.25 since slidify does not have a time input option. Also use military time: 0 = 12AM, 23.75 = 11:45PM</h4>
 
+<pre><code>numericInput(&#39;id1&#39;, &#39;Start Time (ie. 15 min=0.25, 0=12AM, 23=11PM)&#39;, 0, min = 0, max = 23.75, step = 0.25),
+
+numericInput(&#39;id2&#39;, &#39;End Time (ie. 15 min=0.25, 0=12AM, 23=11PM)&#39;, 0, min = 0, max = 23.75, step = 0.25),
+</code></pre>
+
 <h4>2. Enter end time using the same format into its box.</h4>
 
 <h4>3. Choose the date.</h4>

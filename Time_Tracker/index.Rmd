@@ -24,6 +24,12 @@ knit        : slidify::knit2slides
 
 #### 1. Enter start time into input box. 15 minutes equals 0.25 since slidify does not have a time input option. Also use military time: 0 = 12AM, 23.75 = 11:45PM
 
+```
+numericInput('id1', 'Start Time (ie. 15 min=0.25, 0=12AM, 23=11PM)', 0, min = 0, max = 23.75, step = 0.25),
+
+numericInput('id2', 'End Time (ie. 15 min=0.25, 0=12AM, 23=11PM)', 0, min = 0, max = 23.75, step = 0.25),
+```
+
 #### 2. Enter end time using the same format into its box.
 
 #### 3. Choose the date.
