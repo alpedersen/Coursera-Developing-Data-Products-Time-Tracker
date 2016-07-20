@@ -3,5 +3,6 @@ shinyServer(
                 output$oid1 <- renderPrint({input$id1})
                 output$oid2 <- renderPrint({input$id2})
                 output$odate <- renderPrint({input$date})
+                output$otime <- renderPrint({input$id2 - input$id1})
         }
 )

@@ -17,7 +17,9 @@ shinyUI(pageWithSidebar(
                         h4('Start Time'),
                         verbatimTextOutput("oid1"),
                         h4('End Time'),
-                        verbatimTextOutput("oid2")
+                        verbatimTextOutput("oid2"),
+                        h4('Time recorded'),
+                        verbatimTextOutput("otime")
                         )
         )
 )
